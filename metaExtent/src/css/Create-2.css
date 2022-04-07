@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&family=Press+Start+2P&display=swap');
+.body {
+  min-height: 100vh;
+  background: linear-gradient(orange, rgb(220, 40, 76));
+  
+}
+.top-bar {
+  font-size: 30pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+}
+.middle-title-large {
+  font-size: 20pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+}
+.middle-title-small {
+  font-size: 12pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+  /* border-top: 1px solid black ; */
+}
+.input-asset {
+  font-size: 12pt;
+  border: 1px solid black;
+  background-color: transparent;
+  height: 50px;
+  width: 600px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btn-actions {
+  font-size: 12pt;
+  border: 1px solid black;
+  background-color: transparent;
+  height: 50px;
+  width: 300px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btn-actions:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn-actions:disabled {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.display-upload{
+  width: 500px;
+}
+.bottom-bar {
+  font-size: 15pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: right;
+  border-top: 1px solid black ;
+}

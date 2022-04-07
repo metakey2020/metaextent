@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&family=Press+Start+2P&display=swap');
+.body {
+  min-height: 100vh;
+  background: linear-gradient(orange, rgb(220, 40, 76));
+  
+}
+.top-bar {
+  font-size: 30pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+  /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
+.top-bar-title {
+  font-size: 30pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
+.top-bar-item {
+  font-size: 15pt;
+  font-family: "Heebo";
+  padding: 1%;
+  /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
+.select-menu {
+  font-size: 15pt;
+  font-family: "Heebo";
+  margin-left: 60%;
+  padding: 1.5%;
+  border: 1px solid black ;
+  border-color: black;
+  background:rgba(0, 0, 0, 0);
+  /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
+.middle-title-large {
+  font-size: 20pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+}
+.middle-title-small {
+  font-size: 12pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: left;
+  border-bottom: 1px solid black ;
+  /* border-top: 1px solid black ; */
+}
+.btn-login {
+  font-size: 12pt;
+  border: 1px solid black;
+  background-color: transparent;
+  height: 50px;
+  width: 300px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btn-login:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.bottom-bar {
+  font-size: 15pt;
+  font-family: "Heebo";
+  padding: 1%;
+  text-align: right;
+  border-top: 1px solid black ;
+}
